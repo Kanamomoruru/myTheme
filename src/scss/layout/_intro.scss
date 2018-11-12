@@ -1,0 +1,91 @@
+.intro-header {
+    position: relative;
+    margin-left: 4%;
+
+    .intro-border {
+        width:25px;
+        height: 120px;
+        background-color: #ff0000;
+        margin-top: 178px;
+        margin-left: 80px;
+    }
+
+    h1 {
+        width: 25%;
+        color: #ff0000;
+        position: absolute;
+        top: -30%;
+        left: 8%;
+        overflow-wrap: break-word;
+    }
+
+    p {
+        width: 15%;
+        position: absolute;
+        top: 100%;
+        left: 8%;
+        overflow-wrap: break-word;
+    }
+}
+
+.exprenaiton-wrap {
+    width:450px;
+    padding-left: 140px;
+    padding-top: 100px;
+    direction: ltr;
+    text-align: justify;
+    position: relative;
+
+    .exprenation {
+        height: 450px;
+        overflow: auto;
+        direction: rtl;
+        display: block;
+
+        p {
+            font-size: 14px;
+            text-align: justify;
+            direction: ltr;
+        }
+    }
+
+    .rcBtn2 {
+        position: absolute;
+        top: 105%;
+        left: 77%;
+        display: block;
+        width: 120px;
+        padding: 0.5em;
+        text-align: center;
+        text-decoration: none;
+        color: #ff0000;
+        border: 2px solid #ff0000;
+        border-radius: 3px;
+        transition: .4s;
+
+
+        &:hover {
+            background: #ff0000;
+            color: #fff;
+        }
+    }
+
+    .spinsroll {
+        color: #ff0000;
+        overflow-wrap: break-word;
+        writing-mode: vertical-rl;
+        text-orientation: mixed ;
+        position: absolute;
+        top:15%;
+        left: 115%;
+        
+    }
+}
+
+.video1 {
+    width: 30% !important;
+    height: 700px;
+    position: absolute;
+    top: 120%;
+    left: 60%;
+}

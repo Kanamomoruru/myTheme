@@ -1,0 +1,50 @@
+@import "layout/navbar", "layout/intro";
+
+body {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.img-top {
+    width: 30% !important;
+    height: 700px;
+    padding-top: 60px;
+    padding-left: 80px;
+    position: relative;
+}
+
+.title {
+    .title-h1 {
+        width: 30%;
+        color: #ff0000;
+        // background-image: url("/wp-content/themes/sunshine/images/img1")
+        position: absolute;
+        top: 200px;
+        left: 450px;
+        font-size: 70px;
+        overflow-wrap: break-word;
+    }
+
+    .rcBtn {
+        position: absolute;
+        top: 60%;
+        left: 70%;
+        display: block;
+        width: 120px;
+        padding: 0.5em;
+        text-align: center;
+        text-decoration: none;
+        color: #ff0000;
+        border: 2px solid #ff0000;
+        border-radius: 3px;
+        transition: .4s;
+
+        &:hover {
+            background: #ff0000;
+            color: #fff;
+        }
+    }
+}
+
+
